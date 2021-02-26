@@ -6,6 +6,8 @@
 
 
 
+## 源码安装
+
 ### 1. 下载并解压
 
 在[官网](https://www.oracle.com/technetwork/java/javase/downloads/index.html) 下载所需版本的 JDK，这里我下载的版本为[JDK 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) ,下载后进行解压：
@@ -54,5 +56,12 @@ Java HotSpot(TM) 64-Bit Server VM (build 25.201-b09, mixed mode)
 
 ```
 
+## yum 安装
 
-<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin-desc.png"/> </div>
+```bash
+yum install -y java-1.8.0-openjdk-devel
+```
+
+使用 yum 安装后, `JAVA_HOME` 的路径是 `/usr/lib/jvm/jre`
+
+注意, 使用 `yum install -y java`, 安装的是 jre. jre 缺失了 `jps` 等开发工具.
