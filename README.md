@@ -1,13 +1,6 @@
 # BigData-Notes
 
-
-
-<div align="center"> <img width="444px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/bigdata-notes-icon.png"/> </div>
-<br/>
-
 **大数据入门指南**
-
-
 
 <table>
     <tr>
@@ -39,16 +32,7 @@
       <td align="center"><a href="#十二scala">Scala</a></td>
     </tr>
   </table>
-<br/>
 
-<div align="center">
-	<a href = "https://github.com/heibaiying/Full-Stack-Notes"> 
-	<img width="150px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin.jpg"/> 
-	</a> 
-</div>
-<div align="center"> <strong> 如果需要离线阅读，可以在公众号上发送 “bigdata” 获取《大数据入门指南》离线阅读版！ </strong> </div>
-
-<br/>
 
 ## :black_nib: 前  言
 
@@ -202,12 +186,3 @@
 ## :bookmark_tabs: 后  记
 
 [资料分享与开发工具推荐](notes/资料分享与工具推荐.md)
-
-<br>
-
-<div align="center">
-	<a href = "https://blog.csdn.net/m0_37809146"> 
-	<img width="200px" src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/blog-logo.png"/> 
-	</a> 
-</div>
-<div align="center"> <a  href = "https://blog.csdn.net/m0_37809146"> 欢迎关注我的博客：https://blog.csdn.net/m0_37809146</a> </div>
