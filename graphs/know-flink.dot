@@ -1,0 +1,9 @@
+digraph G {
+
+  a[label="Flink是分布式计算的万能药" style=filled]
+  b[label="Flink是流批一体的大数据处理框架"  style=filled]
+  c[label="Flink 先是一个流处理框架其次才是一个批处理框架, 流批一体有待大规模实践" style=filled]
+  
+  a -> b
+  b -> c
+}

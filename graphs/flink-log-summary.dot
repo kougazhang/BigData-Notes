@@ -1,0 +1,39 @@
+digraph G {
+
+  technicalChoice[label="技术选型" style=filled]
+  dataSize[label="数据量" style=filled]
+  success[label="成功" style=filled]
+  failed[label="失败" style=filled]
+  lesson1[label="步子迈大" style=filled]
+  moreAboutFlink[label="祛魅Flink" style=filled]
+  filex[label="FlieX" style=filled]
+  flink[label="Flink" style=filled]
+  
+  network[label="网络问题" style=filled]
+  hdfs[label="HDFS" style=filled]
+  upyunStore[label="云存储" style=filled]
+  luffy[label="路飞" style=filled]
+  
+  future[label="未来规划" style=filled]
+
+  
+  technicalChoice -> mapreduce
+  technicalChoice -> hive
+  technicalChoice -> spark
+  technicalChoice -> flink
+  flink -> dataSize
+  dataSize -> success[label="小"]
+  dataSize -> failed[label="大"]
+  failed -> lesson1[label="原因"]
+  failed -> moreAboutFlink[label="深化认识"]
+  failed -> filex[label="混合部署"]
+  filex -> network
+  filex -> hdfs
+  filex -> upyunStore
+  filex -> luffy
+  
+  flink -> future[color=red]
+  filex -> future[color=red]
+  hdfs -> future[color=red]
+  
+}
