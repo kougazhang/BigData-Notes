@@ -16,6 +16,8 @@
 
 [Q&A](#Q&A)
 
+[相关链接](#相关链接)
+
 ## Flink日志批处理系列
 
 此次分享是 "Flink日志批处理系列" 的第三节, 主要是针对在 "Flink日志批处理系列02" 中暴露出来的问题进行修复和设计方案上的迭代. 考虑到有些同学之前没有关注过, 所以先简短交代下日志处理的需求背景和过去的实践.
@@ -155,4 +157,18 @@
 2. 简化问题有助于选择判断, 细化问题才能在正确的选择下把事情做成.
 
 ## Q&A
+
+## 相关链接
+
+文中提到的相关链接, 整理如下:
+
++ 技术选型：为什么批处理我们却选择了Flink https://zhuanlan.zhihu.com/p/269484708
++ "Flink 在又拍云日志批处理中的实践" 
+  + 视频版, http://shangzhibo.tv/watch/10230926
+  + 文字版, https://zhuanlan.zhihu.com/p/352870794
++ 举例 https://issues.apache.org/jira/browse/FLINK-21670?jql=project%20%3D%20FLINK%20AND%20component%20%3D%20%22Build%20System%22
++ Flink on K8s 实践经验总结：我们都踩过哪些坑？https://www.infoq.cn/article/tk7f60t0kbt82oh0mka5
++ 公司内部链接: Flink 控制台, https://flink.s.upyun.com/#/overview
++ 日志折线示意图: https://madoka.upyun.com/r/gifshow
++ 日志处理项目: FileX https://github.com/kougazhang/golang/blob/master/filex.md
 
