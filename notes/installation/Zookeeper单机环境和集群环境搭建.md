@@ -146,6 +146,12 @@ server.2=hadoop002:2287:3387
 server.3=hadoop003:2287:3387
 ```
 
+myid 的作用是标识当前机器在 zookeeper 集群中的角色, 在上例中 hadoop001 的 myid 内容为:
+```
+# cat myid
+1
+```
+
 ### 2.2 标识节点
 
 分别在三台主机的 `dataDir` 目录下新建 `myid` 文件,并写入对应的节点标识。Zookeeper 集群通过 `myid` 文件识别集群节点，并通过上文配置的节点通信端口和选举端口来进行节点通信，选举出 Leader 节点。
