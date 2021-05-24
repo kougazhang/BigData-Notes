@@ -138,6 +138,9 @@ syncLimit=5
 dataDir=/usr/local/zookeeper-cluster/data/
 dataLogDir=/usr/local/zookeeper-cluster/log/
 clientPort=2181
+# 该机器在内网的地址, 使用这种配置那么每台上的配置就不同了.
+clientPortAddress=hadoop001
+
 
 # server.1 这个1是服务器的标识，可以是任意有效数字，标识这是第几个服务器节点，这个标识要写到dataDir目录下面myid文件里
 # 指名集群间通讯端口和选举端口
@@ -185,3 +188,6 @@ echo "3" > /usr/local/zookeeper-cluster/data/myid
 <div align="center"> <img src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper-hadoop002.png"/> </div>
 
 <div align="center"> <img src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper-hadoop003.png"/> </div>
+
+### 2.5 排查启动异常的问题
++ 在 zookeeper 的根目录下会有 logs 文件夹, 如果启动异常可以从这里查看异常日志.
