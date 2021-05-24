@@ -191,6 +191,3 @@ echo "3" > /usr/local/zookeeper-cluster/data/myid
 <div align="center"> <img src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper-hadoop002.png"/> </div>
 
 <div align="center"> <img src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/zookeeper-hadoop003.png"/> </div>
-
-
-<div align="center"> <img  src="https://gitee.com/heibaiying/BigData-Notes/raw/master/pictures/weixin-desc.png"/> </div>
